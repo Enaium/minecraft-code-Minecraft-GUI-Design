@@ -1,14 +1,14 @@
-package cn.delcx.sirius.Gui.design;
+package cn.enaium.sirius.Gui.design;
 
-import cn.delcx.sirius.Modules.Module;
-import cn.delcx.sirius.Sirius;
+import cn.enaium.sirius.Modules.Module;
+import cn.enaium.sirius.Sirius;
 import net.minecraft.client.gui.GuiScreen;
 
 import java.util.ArrayList;
 
 public class Design extends GuiScreen {
     public static ArrayList<Panel> panels;
-    //Lightcolour
+    //Enaium
 
     public Design() {
         ArrayList<Module> mods = Sirius.ENTER.MODULE_MANAGER.getToggledGuiModules();
