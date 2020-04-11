@@ -1,11 +1,11 @@
-package cn.delcx.sirius.Gui.design;
+package cn.enaium.sirius.Gui.design;
 
-import cn.delcx.sirius.Font.UnicodeFontRenderer;
-import cn.delcx.sirius.Modules.Module;
-import cn.delcx.sirius.Setting.Setting;
-import cn.delcx.sirius.Sirius;
-import cn.delcx.sirius.Utils.PlayerUtils;
-import cn.delcx.sirius.Utils.RenderUtils;
+import cn.enaium.sirius.Font.UnicodeFontRenderer;
+import cn.enaium.sirius.Modules.Module;
+import cn.enaium.sirius.Setting.Setting;
+import cn.enaium.sirius.Sirius;
+import cn.enaium.sirius.Utils.PlayerUtils;
+import cn.enaium.sirius.Utils.RenderUtils;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.Tessellator;
@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Panel {
-    //Lightcolour
+    //Enaium
     public Module module;
     public double x;
     public double y;
